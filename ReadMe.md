@@ -75,3 +75,16 @@ Enabled Logging with Serilog Console and Seq
 
 	I will be using AppVeyor for Deploy this using Github PR, but after submitting the
 	assignment I will be working on this
+
+## Docker Setup Local
+	docker build -t inhouse-api -f DockerfileHeroku .
+	docker run -it -p 5051:80 --name abc inhouse-api:latest
+
+## Heroku Deployment Using Container Registry
+
+	heroku container:login
+	docker build -t inhouse-restaurants-dev .
+	heroku container:push -a inhouse-restaurants-dev web
+	heroku container:release -a inhouse-restaurants-dev web
+
+	docker build -t inhouse-restaurants-dev -f DockerfileHeroku .
