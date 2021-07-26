@@ -26,6 +26,8 @@
 
 5. Run the swagger endpoint with below url
 
+	Note: If you are running this from VS 2019 or higher first time, it might ask you for the Self Signed Certificate Allow option. Please Click on Allow which will register HTTPS IIS DevCertificate Self Signed in the System
+
 	> https://localhost:44314/swagger
 	>
 	> OR
