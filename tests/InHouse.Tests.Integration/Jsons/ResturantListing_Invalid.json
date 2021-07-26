@@ -1,0 +1,44 @@
+{
+  "monday": [
+    {
+      "type": "open",
+      "value": -1111
+    }
+  ],
+  "tuesday": [
+    {
+      "type": "open",
+      "value": -1111
+    }
+  ],
+  "wednesday": [
+    {
+      "type": "open",
+      "value": 0
+    }
+  ],
+  "thursday": [
+    {
+      "type": "open",
+      "value": 0
+    }
+  ],
+  "friday": [
+    {
+      "type": "open",
+      "value": 0
+    }
+  ],
+  "saturday": [
+    {
+      "type": "open",
+      "value": 0
+    }
+  ],
+  "sunday": [
+    {
+      "type": "open",
+      "value": 0
+    }
+  ]
+}
