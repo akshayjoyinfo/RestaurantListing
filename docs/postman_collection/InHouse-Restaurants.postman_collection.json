@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "5a736008-2376-44dd-ab49-13414c336d28",
+		"name": "InHouse-Restaurants",
+		"description": "InHouse-Restaurants",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "RestaurantListingWorkingHours",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"monday\": [\r\n\r\n  ],\r\n  \"tuesday\": [\r\n    {\r\n      \"type\": \"open\",\r\n      \"value\": 36000\r\n    },\r\n    {\r\n      \"type\": \"close\",\r\n      \"value\": 64800\r\n    }\r\n  ],\r\n  \"wednesday\": [\r\n\r\n  ],\r\n  \"thursday\": [\r\n    {\r\n      \"type\": \"open\",\r\n      \"value\": 36000\r\n    },\r\n    {\r\n      \"type\": \"close\",\r\n      \"value\": 64800\r\n    }\r\n  ],\r\n  \"friday\": [\r\n    {\r\n      \"type\": \"open\",\r\n      \"value\": 36000\r\n    }\r\n  ],\r\n  \"saturday\": [\r\n    {\r\n      \"type\": \"close\",\r\n      \"value\": 3600\r\n    },\r\n    {\r\n      \"type\": \"open\",\r\n      \"value\": 36000\r\n    }\r\n  ],\r\n  \"sunday\": [\r\n    {\r\n      \"type\": \"close\",\r\n      \"value\": 3600\r\n    },\r\n    {\r\n      \"type\": \"open\",\r\n      \"value\": 43200\r\n    },\r\n    {\r\n      \"type\": \"close\",\r\n      \"value\": 75600\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Host}}:{{Port}}/v1/restaurants/listings",
+					"host": [
+						"{{Host}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"v1",
+						"restaurants",
+						"listings"
+					]
+				},
+				"description": "RestaurantListingWorkingHours"
+			},
+			"response": []
+		},
+		{
+			"name": "RestaurantListingWorkingHoursBadRequest",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"monday\": [\r\n\r\n  ],\r\n  \"tuesday\": [\r\n    {\r\n      \"type\": \"open\",\r\n      \"value\": -111\r\n    },\r\n    {\r\n      \"type\": \"close\",\r\n      \"value\": 64800\r\n    }\r\n  ],\r\n  \"wednesday\": [\r\n\r\n  ],\r\n  \"thursday\": [\r\n    {\r\n      \"type\": \"open\",\r\n      \"value\": 36000\r\n    },\r\n    {\r\n      \"type\": \"close\",\r\n      \"value\": 64800\r\n    }\r\n  ],\r\n  \"friday\": [\r\n    {\r\n      \"type\": \"open\",\r\n      \"value\": 36000\r\n    }\r\n  ],\r\n  \"saturday\": [\r\n    {\r\n      \"type\": \"close\",\r\n      \"value\": 3600\r\n    },\r\n    {\r\n      \"type\": \"open\",\r\n      \"value\": 36000\r\n    }\r\n  ],\r\n  \"sunday\": [\r\n    {\r\n      \"type\": \"close\",\r\n      \"value\": 3600\r\n    },\r\n    {\r\n      \"type\": \"open\",\r\n      \"value\": 43200\r\n    },\r\n    {\r\n      \"type\": \"close\",\r\n      \"value\": 75600\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Host}}:{{Port}}/v1/restaurants/listings",
+					"host": [
+						"{{Host}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"v1",
+						"restaurants",
+						"listings"
+					]
+				},
+				"description": "RestaurantListingWorkingHours"
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="appsettings.integration.test.json" />
+    <None Remove="Jsons\ResaurantListing_Multiple_Hours_Usecase2.json" />
+    <None Remove="Jsons\ResaurantListing_Usecase2.json" />
+    <None Remove="Jsons\ResturantListing.json" />
+    <None Remove="Jsons\ResturantListing_Invalid.json" />
+    <None Remove="Responses\ResaurantListing_Multiple_Hours_Usecase2_Response.txt" />
+    <None Remove="Responses\ResaurantListing_Usecase2_Response.txt" />
+    <None Remove="Responses\ResturantListing_Response.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="appsettings.integration.test.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jsons\ResaurantListing_Multiple_Hours_Usecase2.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jsons\ResaurantListing_Usecase2.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jsons\ResturantListing_Invalid.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jsons\ResturantListing.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Responses\ResaurantListing_Multiple_Hours_Usecase2_Response.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Responses\ResaurantListing_Usecase2_Response.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Responses\ResturantListing_Response.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="3.1.4" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+    <PackageReference Include="coverlet.collector" Version="1.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="3.1.4" />
+	<PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="3.1.4" />
+	<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\InHouse\InHouse.API\InHouse.API.csproj" />
+  </ItemGroup>
+
+</Project>

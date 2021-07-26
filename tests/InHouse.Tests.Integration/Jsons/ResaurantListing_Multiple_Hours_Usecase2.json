@@ -1,0 +1,66 @@
+{
+  "monday": [
+
+  ],
+  "tuesday": [
+    {
+      "type": "open",
+      "value": 36000
+    },
+    {
+      "type": "close",
+      "value": 64800
+    }
+  ],
+  "wednesday": [
+
+  ],
+  "thursday": [
+    {
+      "type": "open",
+      "value": 36000
+    },
+    {
+      "type": "close",
+      "value": 64800
+    }
+  ],
+  "friday": [
+    {
+      "type": "open",
+      "value": 36000
+    }
+  ],
+  "saturday": [
+    {
+      "type": "close",
+      "value": 3600
+    },
+    {
+      "type": "open",
+      "value": 36000
+    },
+    {
+      "type": "close",
+      "value": 42000
+    },
+    {
+      "type": "open",
+      "value": 48000
+    },
+    {
+      "type": "close",
+      "value": 54000
+    }
+  ],
+  "sunday": [
+    {
+      "type": "open",
+      "value": 43200
+    },
+    {
+      "type": "close",
+      "value": 75600
+    }
+  ]
+}

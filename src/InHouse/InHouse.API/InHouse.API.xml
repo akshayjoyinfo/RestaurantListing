@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>InHouse.API</name>
+    </assembly>
+    <members>
+        <member name="F:InHouse.API.Controllers.BaseApiController._mediator">
+            <summary>
+            Defines the _mediator.
+            </summary>
+        </member>
+        <member name="P:InHouse.API.Controllers.BaseApiController.Mediator">
+            <summary>
+            Gets the Mediator.
+            </summary>
+        </member>
+        <member name="F:InHouse.API.Filters.ApiExceptionFilterAttribute._exceptionHandlers">
+            <summary>
+            Defines the _exceptionHandlers.
+            </summary>
+        </member>
+        <member name="M:InHouse.API.Filters.ApiExceptionFilterAttribute.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:InHouse.API.Filters.ApiExceptionFilterAttribute"/> class.
+            </summary>
+        </member>
+        <member name="M:InHouse.API.Filters.ApiExceptionFilterAttribute.OnException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            The OnException.
+            </summary>
+            <param name="context">The context<see cref="T:Microsoft.AspNetCore.Mvc.Filters.ExceptionContext"/>.</param>
+        </member>
+        <member name="M:InHouse.API.Filters.ApiExceptionFilterAttribute.HandleException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            The HandleException.
+            </summary>
+            <param name="context">The context<see cref="T:Microsoft.AspNetCore.Mvc.Filters.ExceptionContext"/>.</param>
+        </member>
+        <member name="M:InHouse.API.Filters.ApiExceptionFilterAttribute.HandleUnknownException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            The HandleUnknownException.
+            </summary>
+            <param name="context">The context<see cref="T:Microsoft.AspNetCore.Mvc.Filters.ExceptionContext"/>.</param>
+        </member>
+        <member name="M:InHouse.API.Filters.ApiExceptionFilterAttribute.HandleValidationException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            The HandleValidationException.
+            </summary>
+            <param name="context">The context<see cref="T:Microsoft.AspNetCore.Mvc.Filters.ExceptionContext"/>.</param>
+        </member>
+        <member name="M:InHouse.API.Filters.ApiExceptionFilterAttribute.HandleInvalidModelStateException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            The HandleInvalidModelStateException.
+            </summary>
+            <param name="context">The context<see cref="T:Microsoft.AspNetCore.Mvc.Filters.ExceptionContext"/>.</param>
+        </member>
+        <member name="M:InHouse.API.Filters.ApiExceptionFilterAttribute.HandleNotFoundException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            The HandleNotFoundException.
+            </summary>
+            <param name="context">The context<see cref="T:Microsoft.AspNetCore.Mvc.Filters.ExceptionContext"/>.</param>
+        </member>
+        <member name="M:InHouse.API.Installers.InstallerExtensions.InstallServicesInAssembly(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            The InstallServicesInAssembly
+            </summary>
+            <param name="services">The services<see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection"/>.</param>
+            <param name="configuration">The configuration<see cref="T:Microsoft.Extensions.Configuration.IConfiguration"/>.</param>
+        </member>
+        <member name="P:InHouse.API.Startup.Configuration">
+            <summary>
+            Gets the Configuration.
+            </summary>
+        </member>
+    </members>
+</doc>
