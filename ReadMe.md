@@ -79,7 +79,7 @@ Enabled Logging with Serilog Console and Seq
 	assignment I will be working on this
 
 ## Docker Setup Local
-	docker build -t inhouse-api -f DockerfileHeroku .
+	docker build -t inhouse-api -f DockerfileLocal .
 	docker run -it -p 5051:80 --name abc inhouse-api:latest
 
 ## Heroku Deployment Using Container Registry
@@ -89,4 +89,3 @@ Enabled Logging with Serilog Console and Seq
 	heroku container:push -a inhouse-restaurants-dev web
 	heroku container:release -a inhouse-restaurants-dev web
 
-	docker build -t inhouse-restaurants-dev -f DockerfileHeroku .
