@@ -2,6 +2,8 @@
  
  [![.NET](https://github.com/akshayjoyinfo/RestaurantListing/actions/workflows/dotnet.yml/badge.svg?branch=main)](https://github.com/akshayjoyinfo/RestaurantListing/actions/workflows/dotnet.yml)
  [![Coverage Status](https://coveralls.io/repos/github/akshayjoyinfo/RestaurantListing/badge.svg?branch=main)](https://coveralls.io/github/akshayjoyinfo/RestaurantListing?branch=main)
+[![CodeQL](https://github.com/akshayjoyinfo/RestaurantListing/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/akshayjoyinfo/RestaurantListing/actions/workflows/codeql-analysis.yml)
+
 
 ## Live Demo
 
