@@ -1,5 +1,15 @@
 ﻿# InHouse Restaurant Listing API
 
+## Live Demo
+
+	Deployed the APP to Heroku using Container Registry
+	https://inhouse-restaurants-dev.herokuapp.com/health
+
+	test the APi with 
+	
+	http://inhouse-restaurants-dev.herokuapp.com/v1/restaurants/listings
+
+
 
 ## Build & Run Solution
 
